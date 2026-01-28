@@ -15,6 +15,7 @@ print("Our objective value is: ", objective_value)
 print(f"The pseudo random list is:{value1} with n={n} objets")
 print("------------------")
 
+# 3 Def function brute force sum two numbers
 def brute_two_value(nums, target):
     counter=0
 
@@ -25,7 +26,7 @@ def brute_two_value(nums, target):
                 return f"Found it! Index {i},{j} (Values: {nums[i]} + {nums[j]}) in {counter} attempts.""\n-----------" 
            
     return "There is no solution" "\n-----------"  
-
+ # 4 Print function with our data
 print("Bruce force method: ", brute_two_value(value1, objective_value))
 
 
