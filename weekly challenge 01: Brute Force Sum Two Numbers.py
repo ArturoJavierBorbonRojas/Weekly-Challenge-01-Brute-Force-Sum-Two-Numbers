@@ -12,7 +12,7 @@ value1= np.random.randint(0,100,n)
 print("------------------")
 print(" Our pseudo random values")
 print("Our objective value is: ", objective_value)
-print(f"The pseudo random list is:{value1} with n={n} objets")
+print(f"The pseudo random list is:{value1} with n={n} objects")
 print("------------------")
 
 # 3 Def function brute force sum two numbers
